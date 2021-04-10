@@ -1,0 +1,59 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin:0;
+}
+nav ul{
+  margin:0px;
+  padding:15px;
+  background: black;
+}
+nav ul li{
+  display:inline;
+  padding:15px;
+}
+.pagelink{
+  color:white;
+  text-decoration: none;
+}
+.pagelink:hover{
+  color:yellow;
+  cursor: pointer;
+}
+.pagelink:focus{
+  color:red;
+}
+#card1{
+  background-color: #837f7c;
+  border-radius: 18px;
+  box-shadow: 0px 2px 5px grey;
+}
+#border{
+  border-radius: 18px;
+  box-shadow: 0px 2px 5px grey;
+}
+.myproduct{
+  padding:1%;
+  margin:1%;
+  text-align:center;
+  height:50px;
+  font-weight: bold;
+  width:21%;
+  float:left;
+  box-shadow:1px 2px 5px blue;
+
+}
+
+#button{
+  font-size: 80%;
+  font-weight: bold;
+  border-radius: 10px 10px 10px 10px;
+}
+#btn{
+  cursor: pointer;
+  user-select: none;
+  color:#68a7fc;
+}
+#btn:hover{
+   user-select: none; 
+}
+
